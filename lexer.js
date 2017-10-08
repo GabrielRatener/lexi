@@ -70,7 +70,7 @@ export default class Lexer {
     }
     
     // tokenize a complete input string
-    * tokenize(str = '', start = 0, breaker = (t) => true) {
+    * tokenize(str = '', start = 0) {
         const regex = new RegExp(this._regex, 'y');
         const token = (type, range, value = str.slice(...range)) => ({
             type,
@@ -89,7 +89,7 @@ export default class Lexer {
             }
         });
                 
-        let i = regex.startIndex = start;
+        let i = regex.startIndex = regex.lastIndex = start;
         let lastToken = null;
         while (i < str.length) {
             const start = regex.lastIndex;

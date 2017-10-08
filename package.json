@@ -1,6 +1,6 @@
 {
-  "name": "lexi",
-  "version": "1.0.0",
+  "name": "lexie",
+  "version": "1.0.1",
   "description": "A cascade-based JS lexer implementation",
   "module": "lexer.js",
   "esnext:main": "lexer.js",
@@ -16,7 +16,7 @@
     "regular",
     "expression"
   ],
-  "author": "Gabriel Ratener",
+  "author": "Gabriel Ratener<gratener@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "tangler": "^0.2.3"
