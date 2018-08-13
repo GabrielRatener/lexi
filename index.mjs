@@ -1,10 +1,10 @@
 
 /****************************
- * A lexer in under 100 lines of code
+ * A lexer in under 200 lines of code
  * Dunno why, but felt like sharing
  ****************************/
 export default class Lexer {
-    constructor(patterns) {        
+    constructor(patterns) {
         this.patterns = patterns.map(o => Object.freeze(o));
         this.tokenPrototype = {
             get string() {

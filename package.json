@@ -1,12 +1,12 @@
 {
   "name": "lexie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cascade-based JS lexer implementation",
-  "module": "lexer.js",
-  "esnext:main": "lexer.js",
-  "main": "index.js",
+  "module": "lexer.mjs",
+  "esnext:main": "lexer.mjs",
+  "main": "index.mjs",
   "scripts": {
-    "test": "test.js"
+    "test": "node --experimental-modules test.mjs"
   },
   "keywords": [
     "lexer",
