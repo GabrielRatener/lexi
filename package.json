@@ -1,9 +1,9 @@
 {
   "name": "lexie",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A cascade-based JS lexer implementation",
   "module": "lexer.mjs",
-  "esnext:main": "lexer.mjs",
+  "esnext:main": "index.mjs",
   "main": "index.mjs",
   "scripts": {
     "test": "node --experimental-modules test.mjs"

@@ -1,5 +1,7 @@
 
-import Lexer from "./lexer"
+// Not a test suite or anything, just an informal test script
+
+import Lexer from "./index"
 
 const text = `
 	12 + 987 + baby %is %exyaession

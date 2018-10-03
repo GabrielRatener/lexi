@@ -168,3 +168,8 @@ export default class Lexer {
         }
     }
 }
+
+// to circumnavigate class import bug in node
+export const createLexer = (...args) => {
+    return new Lexer(...args);
+}
