@@ -1,6 +1,6 @@
 {
   "name": "lexie",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A cascade-based JS lexer implementation",
   "module": "lexer.mjs",
   "esnext:main": "index.mjs",

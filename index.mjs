@@ -110,6 +110,11 @@ export default class Lexer {
                     const context = Object.freeze({
                         input: str,
                         lexer: this,
+
+                        get position() {
+                            return i;
+                        },
+
                         advanceTo(index) {
                             if (index < i) {
                                 throw new Error("Cannot advance backwards!");
